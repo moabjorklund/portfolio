@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Moa Björklund | Projects</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <a href="./index.html" class="logo">Moa Björklund</a>
+
+    <nav>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <a href="./index.html" class="back-link">← Back to home</a>
+
+    <section class="projects-page">
+      <div class="page-heading">
+        <h1>Projects</h1>
+        <p>A selection of data, analytics and systems projects I have built or explored.</p>
+      </div>
+
+      <div class="project-grid">
+        <a href="#swedish-housing-data-pipeline" class="project-link-card" id="swedish-housing-data-pipeline">
+          <div class="project-card-top">
+            <span class="project-tag">ETL</span>
+            <span class="project-arrow">→</span>
+          </div>
+          <h2>Swedish Housing Data Pipeline</h2>
+          <p>
+            A data pipeline that collects, cleans and stores Swedish housing market data
+            for analysis and reporting.
+          </p>
+          <div class="project-tools">Python · SQL · PostgreSQL · ETL</div>
+        </a>
+
+        <a href="#social-media-stress-dashboard" class="project-link-card" id="social-media-stress-dashboard">
+          <div class="project-card-top">
+            <span class="project-tag">Analytics</span>
+            <span class="project-arrow">→</span>
+          </div>
+          <h2>Social Media Stress Dashboard</h2>
+          <p>
+            An analytical dashboard exploring patterns between social media habits,
+            stress and wellbeing among young adults.
+          </p>
+          <div class="project-tools">Pandas · Visualization · Analysis</div>
+        </a>
+
+        <a href="#sql-data-warehouse-case" class="project-link-card" id="sql-data-warehouse-case">
+          <div class="project-card-top">
+            <span class="project-tag">SQL</span>
+            <span class="project-arrow">→</span>
+          </div>
+          <h2>SQL Data Warehouse Case</h2>
+          <p>
+            A relational data warehouse model designed for structured querying,
+            reporting and analytical use cases.
+          </p>
+          <div class="project-tools">SQL · Data Modeling · Star Schema</div>
+        </a>
+
+        <a href="#api-data-collector" class="project-link-card" id="api-data-collector">
+          <div class="project-card-top">
+            <span class="project-tag">API</span>
+            <span class="project-arrow">→</span>
+          </div>
+          <h2>API Data Collector</h2>
+          <p>
+            A Python application that retrieves API data, transforms JSON responses
+            and exports analysis-ready datasets.
+          </p>
+          <div class="project-tools">Python · APIs · JSON</div>
+        </a>
+
+        <a href="#cybersecurity-log-analytics" class="project-link-card" id="cybersecurity-log-analytics">
+          <div class="project-card-top">
+            <span class="project-tag">Security</span>
+            <span class="project-arrow">→</span>
+          </div>
+          <h2>Cybersecurity Log Analytics</h2>
+          <p>
+            A project focused on analysing logs to identify suspicious patterns,
+            anomalies and potential security incidents.
+          </p>
+          <div class="project-tools">Python · Security · Log Analysis</div>
+        </a>
+
+        <a href="#portfolio-website" class="project-link-card" id="portfolio-website">
+          <div class="project-card-top">
+            <span class="project-tag">Web</span>
+            <span class="project-arrow">→</span>
+          </div>
+          <h2>Portfolio Website</h2>
+          <p>
+            A minimalist personal portfolio built to present technical projects,
+            skills and professional direction.
+          </p>
+          <div class="project-tools">HTML · CSS · GitHub Pages</div>
+        </a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact">
+        <h2>Let’s connect.</h2>
+
+        <div class="contact-links">
+          <a href="mailto:moa.bjorklund1@gmail.com"><span class="contact-icon mail-icon">✉</span> moa.bjorklund1@gmail.com</a>
+          <a href="https://www.linkedin.com/in/moa-bj%C3%B6rklund-0bb37b338/" target="_blank" rel="noopener noreferrer"><span class="contact-icon">in</span>LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Moa Björklund. Built with HTML and CSS.
+  </footer>
+</body>
+</html>
